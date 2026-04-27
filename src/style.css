@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 22px 32px;
 }
 
 .stars {
@@ -13,6 +12,9 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
+}
+
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
